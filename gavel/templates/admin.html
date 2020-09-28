@@ -27,7 +27,7 @@
           <th data-sort-method="number">Id</th>
 		  <th data-sort-method="caseInsensitiveSort">Team Name</th>
           <th data-sort-method="caseInsensitiveSort">Project Name</th>
-          <th data-sort-method="caseInsensitiveSort">Link</th>
+          <th data-sort-method="caseInsensitiveSort">Link (must include http/https)</th>
           <th class="sort-default" data-sort-method="number" data-sort-order="desc">Mu</th>
           <th data-sort-method="number">Sigma Squared</th>
           <th data-sort-method="number">Votes</th>
@@ -149,7 +149,7 @@
     <h2>Add Projects</h2>
   </div>
   <div class="info">
-    <p>Add Project Name, Team Name, Link (CSV format)</p>
+    <p>Add Project Name, Team Name, Link - must include http/https (CSV format)</p>
     <textarea name="data" form="item_form"></textarea>
     <form action="{{ url_for('item') }}" method="post" id="item_form" enctype="multipart/form-data">
       <div class="upload-container">

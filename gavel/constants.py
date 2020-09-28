@@ -50,6 +50,7 @@ instructions before continuing.
 To access the system, visit {link}.
 
 IEEE Service Hackathon Committee
+
 https://ieeeservices.github.io
 '''.strip()
 
